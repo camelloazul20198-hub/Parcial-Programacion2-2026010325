@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Empleado vendedor = new Vendedor("Yenif", 15000.0, new ComisionPersonalizada());
+        Empleado vendedor = new Vendedor("Yenif - Feature", 15000.0, new ComisionPersonalizada());
         vendedor.mostrarDetalle();
     }
 }
